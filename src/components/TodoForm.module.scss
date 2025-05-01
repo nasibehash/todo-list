@@ -1,0 +1,36 @@
+.todo-form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+
+  &-text {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    input {
+      padding: 10px;
+      width: 100%;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: #007BFF;
+    }
+
+  }
+
+  .error {
+    color: rgba(255, 0, 0, 0.94);
+    font-size: 0.8rem;
+    margin: 6px;
+  }
+}
